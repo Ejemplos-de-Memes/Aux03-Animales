@@ -1,8 +1,17 @@
 package cl.uchile.dcc.animals;
 
 import cl.uchile.dcc.animals.abstract_classes.Ave;
+import cl.uchile.dcc.animals.interfaces.Acariciable;
+import cl.uchile.dcc.animals.interfaces.Mascota;
 
-public class Pato extends Ave {
+public class Pato extends Ave
+    implements Mascota, Acariciable {
+
+  private final String nombre;
+
+  public Pato(String nombre) {
+    this.nombre = nombre;
+  }
 
   @Override
   public String hablar() {
@@ -19,5 +28,20 @@ public class Pato extends Ave {
 
   public void nadar() {
     System.out.println("Toy nadando");
+  }
+
+  @Override
+  public String getNombre() {
+    return nombre;
+  }
+
+  @Override
+  public boolean tieneDuenno() {
+    return false;
+  }
+
+  @Override
+  public void hacerCarinno() {
+
   }
 }

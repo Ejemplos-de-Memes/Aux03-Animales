@@ -6,6 +6,4 @@ public interface Mascota {
 
   public boolean tieneDuenno();
 
-  public void hacerCarinno();
-
 }
