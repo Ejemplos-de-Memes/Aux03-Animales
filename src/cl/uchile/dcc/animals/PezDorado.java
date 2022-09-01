@@ -1,15 +1,10 @@
 package cl.uchile.dcc.animals;
 
-public class Pez {
+import cl.uchile.dcc.animals.abstract_classes.Pez;
 
-  public boolean tieneAlas() {
-    return false;
-  }
+public class PezDorado extends Pez {
 
-  public boolean tieneAletas() {
-    return true;
-  }
-
+  @Override
   public String hablar() {
     return "glú glú";
   }

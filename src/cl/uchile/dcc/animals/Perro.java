@@ -1,15 +1,10 @@
 package cl.uchile.dcc.animals;
 
-public class Perro {
+import cl.uchile.dcc.animals.abstract_classes.Mamifero;
 
-  public boolean tieneAlas() {
-    return false;
-  }
+public class Perro extends Mamifero {
 
-  public boolean tieneAletas() {
-    return false;
-  }
-
+  @Override
   public String hablar() {
     return "Woof woof!";
   }

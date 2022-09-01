@@ -1,14 +1,10 @@
 package cl.uchile.dcc.animals;
 
-public class Pato {
-  public boolean tieneAlas() {
-    return true;
-  }
+import cl.uchile.dcc.animals.abstract_classes.Ave;
 
-  public boolean tieneAletas() {
-    return false;
-  }
+public class Pato extends Ave {
 
+  @Override
   public String hablar() {
     return "Cuak Cuak!";
   }

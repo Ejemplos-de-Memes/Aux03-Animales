@@ -1,15 +1,10 @@
 package cl.uchile.dcc.animals;
 
-public class Colibri {
+import cl.uchile.dcc.animals.abstract_classes.Ave;
 
-  public boolean tieneAlas() {
-    return true;
-  }
+public class Colibri extends Ave {
 
-  public boolean tieneAletas() {
-    return false;
-  }
-
+  @Override
   public String hablar() {
     return "*Colibrí noises*";
   }

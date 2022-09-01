@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142624a1-75c0-40a5-8aeb-bc2c13a5f208" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Colibri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Pato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Pez.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+    <list default="true" id="142624a1-75c0-40a5-8aeb-bc2c13a5f208" name="Changes" comment="agregadas clases">
+      <change afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Ave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Colibri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Colibri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Pato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Pato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Perro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Pez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cl/uchile/dcc/animals/Pez.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="p1-inicio" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662036471060</updated>
-      <workItem from="1662036473590" duration="343000" />
+      <workItem from="1662036473590" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1662036671348</created>
@@ -78,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662036671348</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="agregadas clases">
+      <created>1662037068124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662037068124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,7 +103,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="agregadas clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregadas clases" />
   </component>
 </project>
